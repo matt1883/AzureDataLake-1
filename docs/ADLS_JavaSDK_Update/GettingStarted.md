@@ -38,7 +38,17 @@ Learn how to use the Azure Data Lake Store Java SDK to perform basic operations 
 
 ## How do I authenticate using Azure Active Directory?
 
-In this tutorial we use a client key (also known as a client secret) to retrieve Azure Active Directory (Azure AD) OAuth2.0 tokens. We use these tokens to create a Data Lake Store client object to perform filesystem operations. For instructions on how to authenticate with Azure Data Lake Store, see [Authenticating with Data Lake Store using Azure Active Directory](data-lake-store-authenticate-using-active-directory.md).
+Your Python solution can authenticate with Azure Active Directory using either of two methods: interactive and non-interactive.
+
+### Interactive authentication
+
+(content)
+
+### Non-interactive authentication
+
+(content)
+
+In this tutorial, we use non-interactive authentication. We use a client ID and client key (also known as a client secret) to retrieve Azure Active Directory (Azure AD) OAuth2.0 tokens. We use these tokens to create a Data Lake Store client object to perform filesystem operations. For instructions on how to authenticate with Azure Data Lake Store, see [Authenticating non-interactively with Data Lake Store using Azure Active Directory](data-lake-store-authenticate-using-active-directory.md).
 
 Azure AD provides other options as well to retrieve a token. You can pick from a number of different authentication mechanisms to suit your scenario. For example, browser-based applications, desktop applications, and server applications running on-premises or in Azure virtual machines can each use different authentication mechanisms. You can also pick from different types of credentials like passwords and certificates. In addition, Azure AD allows you to synchronize your on-premises Active Directory users with the cloud. For details, see [Authentication Scenarios for Azure Active Directory](../active-directory/active-directory-authentication-scenarios.md). 
 
