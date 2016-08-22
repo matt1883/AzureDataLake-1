@@ -1,6 +1,6 @@
 <properties
-   pageTitle="Authenticate with Data Lake Store using Active Directory | Azure"
-   description="Learn how to authenticate with Data Lake Store using Active Directory"
+   pageTitle="Authenticate Non-interactively with Data Lake Store using Azure Active Directory | Azure"
+   description="Learn how to authenticate non-interactively with Data Lake Store using Azure Active Directory"
    services="data-lake-store"
    documentationCenter=""
    authors="nitinme"
